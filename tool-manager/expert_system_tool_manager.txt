@@ -1,0 +1,53 @@
+PURPOSE
+  To create, read, update, and delete files from a knoweledge base consisting of:
+    -Common_Tools
+    -Developer_Tools 
+    -Linux_Tools 
+    -Windows_Tools 
+
+  Each of these "tool boxes" contains information to conduct a task or an actionable script (automated) that can be selected to carry out a task.   
+
+DETAILS
+  -Python will be used so that the tool can be ran anywhere as long as the script 
+  is in its special directory containing the directories it needs to operate on
+  -This will be a command line driven application, where starting the process opens 
+  a terminal window 
+  -the window will display a series of options:
+  c|reate r|ead u|pdate d|elete e|xecute
+  -unfortunately for now, the execute command will only start processes that have  
+  been developed outside of the software and stored in its directories 
+  no configuring of executables or scripts will be allowed just yet
+  -should detect os (can still read from other os though) 
+
+  T==0===0===L------------------------------------------------M==A==N==A==G==E==R
+  [COMMON_TOOLS]	[DEVELOPER_TOOLS]	[LINUX_TOOLS]	[WINDOWS_TOOLS]
+  --------------------------------------------------------------------------------
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  |										 |
+  | c|reate r|ead u|pdate d|elete e|execute                                      |
+
+
+REQUIREMENTS 
+  -should be able to perform advanced search options
+  -start off very basic, like note taking and updating and read for starters 
+  -should provide easy menu navigation (maybe diplay options with ?)
+  -later on, implement adavanced queries that is something like a search engine
+  -perform statistics on certain items 
+  -should be left to easily add onto in terms of running other programs from it 
+  or in it 
+  -enable almost any kind of plugin/configuration capability 
+  -also, keep it free!
+
+
+
+
