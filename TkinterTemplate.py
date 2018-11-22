@@ -1,6 +1,9 @@
 import tkinter 
 import tkinter.messagebox
 
+#example of lcm implement 
+#from com.net.thing import GetMessage_t
+
 ### create window object -- liken to jframe ###
 # window size (w x h)
 window = tkinter.Tk()
