@@ -1,0 +1,54 @@
+# project structure for python 
+project_name/
+    project_name/
+        __init__.py
+        ...source code files...
+    test/
+        __init__.py
+        ...unit test files...
+    docs/
+        ...documentation files...
+    project_name.py
+    README.md
+    LICENSE.md
+    requirements.txt
+    .gitignore
+
+
+
+Project/
+|-- bin/
+|   |-- project
+|
+|-- project/
+|   |-- test/
+|   |   |-- __init__.py
+|   |   |-- test_main.py
+|   |   
+|   |-- __init__.py
+|   |-- main.py
+|
+|-- setup.py
+|-- README
+
+|- LICENSE
+|- README.md
+|- TODO.md
+|- docs
+|   |-- conf.py
+|   |-- generated
+|   |-- index.rst
+|   |-- installation.rst
+|   |-- modules.rst
+|   |-- quickstart.rst
+|   |-- sandman.rst
+|- requirements.txt
+|- sandman
+|   |-- __init__.py
+|   |-- exception.py
+|   |-- model.py
+|   |-- sandman.py
+|   |-- test
+|       |-- models.py
+|       |-- test_sandman.py
+|- setup.py
