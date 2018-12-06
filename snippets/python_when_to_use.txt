@@ -1,0 +1,13 @@
+# good to use when short on time 
+# quick tools for development
+# bad on performance so not very good for production level stuff
+# definetely good for training models than may be exported for production
+# good for non performance critical stuff
+# data analysis
+# web development or web interfaces 
+# desktop utilities (small simple programs)
+# automated tasks for systems managment 
+# rapid prototyping 
+# natural language processing 
+# scripting 
+# artificial intelligence

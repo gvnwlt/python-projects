@@ -1,0 +1,13 @@
+# for loop with integer 
+for i in range(3):
+  print(i)
+
+# for loop with string (prints each character) 
+for x in "Hello":
+  print(x)
+
+# while loop 
+while x == True:
+  print("still True")
+  input("Enter True/False:", x)
+

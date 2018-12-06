@@ -1,0 +1,33 @@
+
+
+# parent class: object.py 
+class Object: 
+  # this is the constructor that contains member variables
+  def __init__(self):
+     self.x = 1
+     self.y = 2
+     self.z = 3
+
+  #in order for functions in the class to use stuff a "self" param must be an arg
+  def printClassMembers(self):
+     print(self.x + self.y + self.z)
+
+# main.py 
+from object import Object
+
+def printLocal(x, y, z):
+   print(x + y + z) 
+
+def main():
+  o = Object()
+  #grab xyz's from import class instance 
+  g_x = o.x
+  g_y = o.y
+  g_z = o.z 
+  
+  #print the classes' values and then the local values that were grabbed 
+  o.printClassMembers()
+  printLocal(g_x, g_y, g_z)
+
+#call main 
+main()

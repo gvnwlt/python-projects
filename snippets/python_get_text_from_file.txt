@@ -1,0 +1,30 @@
+OPEN FILES
+#1
+_ = open('file.txt', 'r'); text = _.readlines(); _.close()
+
+#2
+file = open('file.txt', 'r')
+text = file.readlines()
+file.close()
+
+MATCH TEXT TO STRING IN FILE 
+import re
+
+word = "abc"
+
+for line in text:
+  # matching for word at beginning of line 
+  if re.match(r'^' + word, line):
+    print("found word")
+  else:
+    print("not found")
+
+GRAB LAST WORD OF LINE FROM FILE
+last_word = ""
+for line in text:
+  #turn line into list
+  list_of_words = line.split()
+  #last word
+  last_word = line[-1]
+  print(last_word)
+  

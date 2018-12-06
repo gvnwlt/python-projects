@@ -1,0 +1,8 @@
+# Python Classes and Functions Import from Library 
+  
+  The distinction here when importing using from ?? import ?? is that the import will either be a libary or 
+  a function. 
+
+  A function is all lower case and uses underscores to separate words. 
+
+  A Class uses capitals. 

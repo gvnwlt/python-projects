@@ -1,0 +1,124 @@
+﻿ONE-OFF SCRIPTS
+helloworld/
+│
+├── .gitignore
+├── helloworld.py
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
+└── tests.py
+
+INSTALLABLE SINGLE PACKAGE
+helloworld/
+│
+├── helloworld/
+│   ├── __init__.py
+│   ├── helloworld.py
+│   └── helpers.py
+│
+├── tests/
+│   ├── helloworld_tests.py
+│   └── helpers_tests.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
+
+APPLICATION WITH INTERNAL PACKAGES
+helloworld/
+│
+├── bin/
+│
+├── docs/
+│   ├── hello.md
+│   └── world.md
+│
+├── helloworld/
+│   ├── __init__.py
+│   ├── runner.py
+│   ├── hello/
+│   │   ├── __init__.py
+│   │   ├── hello.py
+│   │   └── helpers.py
+│   │
+│   └── world/
+│       ├── __init__.py
+│       ├── helpers.py
+│       └── world.py
+│
+├── data/
+│   ├── input.csv
+│   └── output.xlsx
+│
+├── tests/
+│   ├── hello
+│   │   ├── helpers_tests.py
+│   │   └── hello_tests.py
+│   │
+│   └── world/
+│       ├── helpers_tests.py
+│       └── world_tests.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
+WEB APPLICATION LAYOUTS 
+project/
+│
+├── project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+└── manage.py
+
+app/
+│
+├── migrations/
+│   └── __init__.py
+│
+├── __init__.py
+├── admin.py
+├── apps.py
+├── models.py
+├── tests.py
+└── views.py
+
+project/
+│
+├── app/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   │
+│   ├── migrations/
+│   │   └── __init__.py
+│   │
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
+├── docs/
+│
+├── project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── static/
+│   └── style.css
+│
+├── templates/
+│   └── base.html
+│
+├── .gitignore
+├── manage.py
+├── LICENSE
+└── README.md
