@@ -1,6 +1,18 @@
 #!/usr/bin/python 
 
-import tkinter
-top = tkinter.Tk()
+#import tkinter
+import Tkinter as tk
 
-top.mainloop()
+# create frame 
+#root = tkinter.Tk()
+root = tk.Tk()
+root.title("Window")
+frame = tk.Frame(root)
+frame.pack()
+
+# add buttons 
+button =  tk.Button(frame, text="press", fg="black", command=function_name)
+button.pack(side=tk.LEFT)
+
+# start window loop
+root.mainloop()
